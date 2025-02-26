@@ -1,0 +1,26 @@
+.main-content {
+    text-align: center;
+    color: #f0c040;
+  }
+  
+  .example-prompts {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* 버튼 간 간격 더 넓게 */
+  }
+  
+  .prompt-box {
+    background-color: #222;
+    padding: 20px 30px; /* 상하좌우 여백 확대 */
+    border-radius: 10px;
+    color: #f0c040;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .prompt-box:hover {
+    background-color: #333;
+    transform: translateY(-5px); /* 살짝 위로 올림 */
+  }
+  

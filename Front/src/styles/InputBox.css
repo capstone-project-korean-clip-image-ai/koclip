@@ -1,0 +1,21 @@
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #444;
+  color: white;
+  border-radius: 10px;
+}
